@@ -1,0 +1,5 @@
+train: data/obj_train_data/images
+val: data/obj_train_data/images
+nc: 5
+names: ['p_w_gun', 'p_wo_gun_not_carrying_normal_pose', 'p_wo_gun_acting_like_shooting', 'p_wo_gun_carrying_another_object', 'gun']
+
