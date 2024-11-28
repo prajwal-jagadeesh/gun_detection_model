@@ -1,6 +1,5 @@
 python3 -m venv yolov5-env
 source yolov5-env/bin/activate  # On Linux/Mac
-yolov5-env\Scripts\activate  # On Windows
 pip install -U pip
 pip install -U setuptools
 
