@@ -1,0 +1,12 @@
+python3 -m venv yolov5-env
+source yolov5-env/bin/activate  # On Linux/Mac
+yolov5-env\Scripts\activate  # On Windows
+pip install -U pip
+pip install -U setuptools
+
+Install YOLOv5: Clone the YOLOv5 repository and install its dependencies.
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5
+pip install -r requirements.txt
+
+python train.py --img 640 --batch 16 --epochs 50 --data data/obj.data --cfg models/yolov5s.yaml --weights yolov5s.pt --name prajwal_gun__model
